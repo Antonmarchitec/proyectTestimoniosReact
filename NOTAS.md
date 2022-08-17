@@ -27,6 +27,7 @@ Pagina oficial http//react.org
 - Redux
 - GraphQL
 - React-Native
+- Error lens
 - snippets v3.1.
 - instalar la extension de "SINGLE REACT SNIPES" en visual studio code (ayuda con TAB completar el codigo)
 
@@ -137,7 +138,7 @@ Existen dos tipos de importaciones que son:
 
 
 ----------------------------------------------------------------------------
-# CONSTRUCCION DE NUESTRA PROMERA APP EN REACT
+# CONSTRUCCION DE NUESTRA PRIMERA APP EN REACT
 # PASO 1: RECONOCER LOS ELEMENTOS
 # PASO 2: CREAR UN COMPONENTE
    - CREAR LA CARPETA "components" EN LA CARPETA "src"

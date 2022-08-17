@@ -1,12 +1,18 @@
 //import logo from './logo.svg';
-import './App.css';
-import {Testimonios} from './components/Testimonios';
+import './App.scss';
+//import {Testimonios} from './components/Testimonios';
+import { Testimonios } from './components/Testimonios';
+//import { Pie } from './components/Pie';
+
+//import Pie from './components/Pie';
+
 
 function App() {
   return (
     <div className="App">
       <div className='contenedor-principal'>
-        <h1 className='titulo_testimonio'>Bienvenidos al bloque</h1>
+
+        <h1 className='container_title'>Mi primer componente en react js</h1>
         <Testimonios
           nombre= "Emma Bostian"
           pais = "Suecia"
@@ -17,22 +23,22 @@ function App() {
         />
 
         <Testimonios
-          nombre= "Richard Ponce"
-          pais = "Bolivia"
+          nombre= "Juan Guzman"
+          pais = "Mexico"
           imagen = "img2"
-          cargo = "Area contble"
-          empresa = "Spotify new"
-          testimonio = "contable de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu"
+          cargo = "Ingeniera de Software"
+          empresa = "Spotify"
+          testimonio = "Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu"
         />
 
         <Testimonios
-          nombre= "Antonio Ponce"
-          pais = "Estados Unidos"
+          nombre= "Edgar Montalvan"
+          pais = "Grecia"
           imagen = "img1"
-          cargo = "Desarrollador FrontEnd"
-          empresa = "GOOGLE"
-          testimonio = "Desarrollador de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu"
-        /> 
+          cargo = "Diseñador Grafico"
+          empresa = "Spotify"
+          testimonio = "Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu Ingeniera de Software en spotyfuIngeniera de Software en spotyfuIngeniera de Software en spotyfu"
+        />
         
       </div>
     </div>
